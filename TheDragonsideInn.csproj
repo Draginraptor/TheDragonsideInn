@@ -234,7 +234,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Dish.cs" />
+    <Compile Include="Assets\Scripts\DishCombo.cs" />
+    <Compile Include="Assets\Scripts\DishHolder.cs" />
+    <Compile Include="Assets\Scripts\DishSpawner.cs" />
+    <Compile Include="Assets\Scripts\GM.cs" />
+    <Compile Include="Assets\Scripts\LoadSceneOnClick.cs" />
+    <Compile Include="Assets\Scripts\PlayerControl.cs" />
+    <Compile Include="Assets\Scripts\ScrollingBackground.cs" />
+    <Compile Include="Assets\Scripts\SFX.cs" />
+    <Compile Include="Assets\Scripts\Table.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

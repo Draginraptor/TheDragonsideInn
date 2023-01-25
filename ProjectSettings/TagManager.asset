@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Spawner
+  - Holder
+  - Table
   layers:
   - Default
   - TransparentFX
@@ -13,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Interactables
   - 
   - 
   - 
@@ -38,8 +41,20 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2745429621
+    locked: 0
   - name: Floor
     uniqueID: 160506259
+    locked: 0
+  - name: Counter
+    uniqueID: 2548286643
+    locked: 0
+  - name: Table
+    uniqueID: 1886365087
+    locked: 0
+  - name: Dish
+    uniqueID: 3658886701
     locked: 0
   - name: Player
     uniqueID: 220017405
